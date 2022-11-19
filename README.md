@@ -45,6 +45,11 @@ Then go to `http://localhost:8000` from your browser and see the app.
 - PHP Laravel Framework
 - Bootstrap
 
+## Package  Used
+
+- **[Maatwebsite/Excel ](https://docs.laravel-excel.com/3.1/getting-started/installation.html)**
+
+
 ## Example Used Excel File
 My sample excel file is Custom_file_users.xlsx file in public folder
 `Public/Custom_file_users.xlsx`
