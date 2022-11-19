@@ -4,36 +4,40 @@ Import and Export Excel file with Laravel 8.
 
 ## Installation
 
-Clone the repository-
+1-Clone the repository
 ```
 git clone https://github.com/aymensmida/Laravel-xlsx-File-Import-and-Export.git
 ```
 
-Then cd into the folder with this command-
+2- cd into the folder with this command-
 ```
 cd Laravel-xlsx-File-Import-and-Export
 ```
 
-Then do a composer install
+3- composer install
 ```
 composer install
 ```
+4- generate key
+```
+php artisan key:generate
+```
 
-Then create a environment file using this command-
+5-Then create a environment file using this command-
 ```
 cp .env.example .env
 ```
 
 Then edit `.env` file with appropriate credential for your database server. Just edit these two parameter(`DB_USERNAME`, `DB_PASSWORD`).
 
-Then create a database named `import_export_db` and then do a database migration using this command-
+6-Then create a database named `import_export_db` and then do a database migration using this command-
 ```
 php artisan migrate
 ```
 
 ## Run server
 
-Run server using this command-
+7-Run server using this command-
 ```
 php artisan serve
 ```
