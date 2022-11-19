@@ -53,8 +53,3 @@ Then go to `http://localhost:8000` from your browser and see the app.
 ## Example Used Excel File
 My sample excel file is Custom_file_users.xlsx file in public folder
 `Public/Custom_file_users.xlsx`
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 96243fb231f0de9a834a5b1bf8bc2b972ede5995
