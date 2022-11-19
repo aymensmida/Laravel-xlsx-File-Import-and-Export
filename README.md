@@ -18,19 +18,20 @@ cd Laravel-xlsx-File-Import-and-Export
 ```
 composer install
 ```
-4- generate key
-```
-php artisan key:generate
-```
 
-5-Then create a environment file using this command:
+4-Then create a environment file using this command:
 ```
 cp .env.example .env
 ```
 
+5- generate key
+```
+php artisan key:generate
+``` 
+
 Then edit `.env` file with appropriate credential for your database server. Just edit these two parameter(`DB_USERNAME`, `DB_PASSWORD`).
 
-6-Then create a database named `import_export_db` and then do a database migration using this command-
+6-Then create a database named `import_export_db` and then do a database migration using this command:
 ```
 php artisan migrate
 ```
