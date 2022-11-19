@@ -9,7 +9,7 @@ Import and Export Excel file with Laravel 8.
 git clone https://github.com/aymensmida/Laravel-xlsx-File-Import-and-Export.git
 ```
 
-2- cd into the folder with this command-
+2- cd into the folder with this command:
 ```
 cd Laravel-xlsx-File-Import-and-Export
 ```
@@ -23,7 +23,7 @@ composer install
 php artisan key:generate
 ```
 
-5-Then create a environment file using this command-
+5-Then create a environment file using this command:
 ```
 cp .env.example .env
 ```
@@ -37,7 +37,7 @@ php artisan migrate
 
 ## Run server
 
-7-Run server using this command-
+7-Run server using this command:
 ```
 php artisan serve
 ```
